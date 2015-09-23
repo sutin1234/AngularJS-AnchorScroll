@@ -7,7 +7,13 @@
 	<script src="js/app.js"></script>
 </head>
 <body>
-	<div ng-controller="CtrlApp"></div>
+	<div ng-controller="CtrlApp">
+		<button ng-click="gotoTop()">goto Top</button>	
+		<button ng-click="gotoBottom()">goto Bootom</button>	
+		<button ng-click="gotoAnchor('textAnchor')">goto Anchor</button>	
+
+		<div id="testAnchor"></div>
+	</div>
 	
 </body>
 </html>
